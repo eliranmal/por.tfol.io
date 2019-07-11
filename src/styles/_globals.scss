@@ -1,0 +1,9 @@
+$header-size: 20.2rem;
+$layout-pad: 6rem;
+$opacity-reduced: .666;
+
+:root {
+  --header-size: #{$header-size};
+  --layout-pad: #{$layout-pad};
+  --opacity-reduced: #{$opacity-reduced};
+}

@@ -1,0 +1,69 @@
+
+html,
+body {
+  height: 100vh;
+  // prevent the over-scroll effect (e.g. on osx)
+  overflow: hidden;
+}
+
+html,
+body,
+div,
+a {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 24px;
+}
+
+body {
+  position: relative;
+  background-color: var(--color-background);
+  font-family: existencelight, 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: .035em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  margin: 1em 0;
+  line-height: 1;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+br {
+  font-size: 0;
+}
